@@ -1,0 +1,16 @@
+{
+  "name": "opencomponents",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:oc": "cross-env TSC_SKIP_TYPECHECK=true oc dev . 3030 --fallbackRegistryUrl=https://oc-registry.ci.guestline.app",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cross-env": "^7.0.3",
+    "oc": "^0.49.3"
+  }
+}
